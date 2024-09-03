@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-4$jbl$1%dvh2uxmql05#yn0x0l$t7c=q5n5--(-e*ee)!pwor_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["localhost", "127.0.0.1", "https://pbp.cs.ui.ac.id/made.izzy/mental"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "https://pbp.cs.ui.ac.id/made.izzy/mental",'made-izzy-mental.pbp.cs.ui.ac.id']
 
 
 # Application definition
