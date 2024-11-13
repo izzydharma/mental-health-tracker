@@ -185,6 +185,7 @@ const modal = document.getElementById('crudModal');
 
   document.getElementById("cancelButton").addEventListener("click", hideModal);
   document.getElementById("closeModalBtn").addEventListener("click", hideModal);
+  
 function addMoodEntry() {
     fetch("{% url 'main:add_mood_entry_ajax' %}", {
       method: "POST",
